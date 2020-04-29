@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <style>
+        body {
+            background: url('black.jpg');
+            margin: 0px;
+            padding: 0px;
+            color: white;
+
+
+        }
+
+        .left {
+            
+            display: inline-block;
+            position: absolute;
+            left: 25px;
+            top: 20px;
+            font-size: 25px;
+
+        }
+
+        .center {
+
+            display: block;
+            width: 63%;
+            margin: 12px auto;
+            top: 20px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+
+            text-decoration: underline;
+            color: #00ffe7;
+
+        }
+
+
+        .condiv {
+            border: 3px solid white;
+            border-radius: 10%;
+            font-size: 25px;
+            margin: 163px 2px;
+            padding: 10px 10px;
+            width: 50%;
+            line-height: 1.5;
+
+            color: rgb(247, 244, 244);
+            float: left;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            My Portfolio
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="myprofile.html" class="active">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="extra.html">Extra Curricular Activity</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <section class="container">
+        <img src="pic.jpg" alt="" srcset="" style="width: 30%;
+        height: auto;float: left; margin-right: 3%;
+    margin: 163px 39px">
+    </section>
+
+    <section class="condiv">
+        <p>Hi, I am Harsimran kaur. Currently I am pursuing MCA
+            (Master's of Computer Science) in Lal Bahadur Shastri
+            Institue of Management, Affiliated by GGSIPU.I am a self-motivator. I 
+            work efficiently both as an individual as well as along with the team. 
+            <br>My hobbies are learning something and teaching  , that is why I started
+            a youtube channel "STUDY VENTURE".           
+        </p>
+    </section>
+
+
+</body>
+
+</html>
