@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+
+    <style>
+        body {
+            background: url('black.jpg');
+
+            margin: 0px;
+            padding: 0px;
+            color: white;
+
+
+        }
+
+        .left {
+           
+            display: inline-block;
+            position: absolute;
+            left: 25px;
+            top: 20px;
+            font-size: 25px;
+
+        }
+
+        .center {
+            display: block;
+            width: 63%;
+            margin: 12px auto;
+            top: 20px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+
+            text-decoration: underline;
+            color: #00ffe7;
+        }
+        section img{
+           
+            margin: 2px 2px;
+            padding: 5px 5px;
+            float: right;
+            position: absolute;
+            top: 32%;
+            right: 45%; 
+            
+        }
+        .pahal{
+           
+            width:80%;
+            float: left;
+            position: absolute;
+            top: 30%;
+            left: 2%;
+            font-size: 20px;
+            padding: 2px 2px;
+            margin: 2px 2px;
+            line-height: 1.5;
+
+
+        }
+        .portfolio{
+          
+            width:80%;
+            float: left;
+            position: absolute;
+            top: 60%;
+            left: 2%;
+            font-size: 20px;
+            padding: 2px 2px;
+            margin: 2px 2px;
+            line-height: 1.5;
+
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            My Portfolio
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="myprofile.html" >Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Projects.html" class="active">Projects</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="extra.html">Extra Curricular Activity</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+    </header>
+    <section>
+        
+            <img src="icon.png" style="border:2px solid white;" >
+            <div class="pahal">
+                <h2>1. PAHAL-  android application for elderly people.</h2>
+                <p> An android application that will connect elderly people all around the country
+                    via NGOs or old age homes. <br>Through this app a volunteer caan earn
+                    some value points and after reaching at a limit can redeem them in various 
+                    places like swiggy, zomato, big basket.
+                </p>
+            </div>
+
+            <div class="portfolio">
+                <h2>2. My Portfolio</h2>
+                <p>A webpage using html and css describe my education, projects,
+                    Achievements, my extra-curricular activities. It is a complete 
+                    resume using css that is used for make webpage stylish.
+                </p>
+            </div>
+    </section>
+
+</body>
+
+</html>
